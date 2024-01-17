@@ -6,10 +6,11 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'clean_folder=clean_folder.setup:setup',
+            'clean-folder=clean_folder.setup:setup',
         ],
     },
     install_requires=[
         # Список залежностей, якщо потрібно
     ],
 )
+
